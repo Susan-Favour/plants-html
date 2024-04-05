@@ -1,0 +1,311 @@
+#welcome-intro{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(101,161,91);
+    border-radius: 10px;
+    color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+#logo1{
+    font-size: xx-large;
+}
+#landing-page{
+    display: flex;
+    justify-content: space-around;
+}
+#inspiration-plants{
+    display: flex;
+    justify-content: space-around;
+}
+#orchid-plants{
+    display: flex;
+    justify-content: space-around;
+}
+#sale-plants{
+    display: flex;
+    justify-content: space-around;
+}
+#spring-store{
+    display: flex;
+    justify-content: space-around;
+}
+#house-plants{
+    border-radius: 10px;
+}
+#heads{
+    text-align: center;
+}
+#mini-plants1{
+    display: flex;
+    justify-content: space-around;
+}
+#mini-plants2{
+    display: flex;
+    justify-content: space-around;
+}
+#plants-collection{
+    display: flex;
+    justify-content: space-around;
+}
+#f-products{
+    text-align: center;
+}
+#tree-bottles{
+    display: flex;
+    justify-content: space-around;
+}
+#offers{
+    background-image: url(/images/offer-image.jpg);
+    height: 400;
+    width: 400;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+}
+#offersa{
+    display: flex;
+    justify-content: space-around;
+}
+#offersb{
+    display: flex;
+    justify-content: space-around;
+}
+#offersc{
+    display: flex;
+    justify-content: space-around;
+}
+#cactus-plant{
+    display: flex;
+    justify-content: space-around;
+}
+#cactus-offer{
+    display: flex;
+
+}
+#latest-plants{
+    display: flex;
+    justify-content: space-around;
+}
+#client-review{
+    text-align: center;
+}
+#testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+#client-text{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    gap: 150px;
+    padding: 50px;
+    justify-content: space-around;
+}
+#copyright{
+    text-align: center;
+    color: gray;
+}
+#model{
+    border-radius: 10px;
+}
+#flower-model{
+    border-radius: 10px;
+}
+#man-model{
+    border-radius: 10px;
+}
+#urban-jungle{
+    border-radius: 10px;
+}
+#house-plant{
+    border-radius: 10px;
+}
+#sill-plant{
+    border-radius: 10px;
+}
+#tree-image{
+    border-radius: 10px;
+}
+#glass-tree{
+    border-radius: 15px;
+}
+#pulvinos{
+    border-radius: 10px;
+}
+#orchid{
+    border-radius: 10px;
+}
+#popcorn{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+    #welcome-intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgb(101,161,91);
+        border-radius: 10px;
+        color: white;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #logo1{
+        font-size: xx-large;
+    }
+    #landing-page{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #inspiration-plants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #orchid-plants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #sale-plants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #spring-store{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #house-plants{
+        border-radius: 10px;
+    }
+    #heads{
+        text-align: center;
+    }
+    #mini-plants1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #mini-plants2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #plants-collection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #f-products{
+        text-align: center;
+    }
+    #tree-bottles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #offers{
+        background-image: url(/images/offer-image.jpg);
+        height: 400;
+        width: 400;
+        text-align: center;
+        border-radius: 10px;
+        font-size: x-large;
+    }
+    #offersa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #offersb{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #offersc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #cactus-plant{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #cactus-offer{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #latest-plants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #client-review{
+        text-align: center;
+    }
+    #testimonials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #client-text{
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        /*gap: 150px;*/
+        padding: 50px;
+        justify-content: space-around;
+    }
+    #copyright{
+        text-align: center;
+        color: gray;
+    }
+    #model{
+        border-radius: 10px;
+    }
+    #flower-model{
+        border-radius: 10px;
+    }
+    #man-model{
+        border-radius: 10px;
+    }
+    #urban-jungle{
+        border-radius: 10px;
+    }
+    #house-plant{
+        border-radius: 10px;
+    }
+    #sill-plant{
+        border-radius: 10px;
+    }
+    #tree-image{
+        border-radius: 10px;
+    }
+    #glass-tree{
+        border-radius: 15px;
+    }
+    #pulvinos{
+        border-radius: 10px;
+    }
+    #orchid{
+        border-radius: 10px;
+    }
+    #popcorn{
+        text-align: center;
+    }
+    
+}
